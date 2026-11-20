@@ -1,0 +1,10 @@
+{"text":"Сколько стоит чёрная футболка?","expected":{"intent":"PRICE","product_id":"T01","price":"2490","currency":"RUB","available_sizes":["S","M","L"],"availability":"in_stock"}}
+{"text":"Какие размеры серого худи?","expected":{"intent":"SIZES","product_id":"T02","available_sizes":["M","L"],"availability":"in_stock"}}
+{"text":"Есть чёрная футболка XL?","expected":{"intent":"AVAILABILITY","product_id":"T01","requested_size":"XL","size_status":"unavailable","needs_clarification":true}}
+{"text":"Сколько стоят синие джинсы?","expected":{"intent":"PRICE","product_id":"T03","price":"6490","availability":"out_of_stock","available_sizes":[]}}
+{"text":"Есть синие джинсы размер M?","expected":{"intent":"AVAILABILITY","product_id":"T03","size_status":"unavailable","availability":"out_of_stock","available_sizes":[]}}
+{"text":"Хочу купить чёрную футболку M","expected":{"intent":"ORDER","product_id":"T01","size":"M","size_status":"recognized"}}
+{"text":"Из какого материала чёрная футболка?","expected":{"intent":"UNKNOWN","product_id":null}}
+{"text":"Сколько стоит доставка чёрной футболки?","expected":{"intent":"UNKNOWN","product_id":null}}
+{"text":"Какие условия оплаты?","expected":{"intent":"UNKNOWN","product_id":null}}
+{"text":"Как оформить возврат худи?","expected":{"intent":"UNKNOWN","product_id":null}}

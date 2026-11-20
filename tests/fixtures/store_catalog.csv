@@ -1,0 +1,4 @@
+product_id;name;aliases;sizes;color;price;currency;active
+DEMO-BLUE;Футболка синяя;синяя футболка;S|M|L;синяя;1290.50;RUB;1
+DEMO-WHITE;Футболка белая;белая футболка;M|XL;белая;;;1
+DEMO-HIDDEN;Тестовый скрытый товар;;M;;100;RUB;0

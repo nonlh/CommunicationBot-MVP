@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "communicationbot-parser-mvp"
+version = "0.1.0"
+description = "Autonomous deterministic parser of customer product inquiries"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["RapidFuzz>=3.14,<4", "openpyxl>=3.1,<4", "aiogram>=3.23,<4"]
+
+[project.optional-dependencies]
+test = ["pytest>=8.3,<10"]
+
+[tool.setuptools.packages.find]
+include = ["parser_mvp*", "store_core*"]

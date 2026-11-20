@@ -1,0 +1,4 @@
+product_id;name;price;currency;sizes_in_stock;aliases
+T01;Чёрная футболка;2490;RUB;S|M|L;T01|футболка чёрная
+T02;Серое худи;5990;RUB;M|L;T02|худи серое
+T03;Синие джинсы;6490;RUB;;T03|джинсы синие

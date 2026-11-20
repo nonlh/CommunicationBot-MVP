@@ -1,0 +1,12 @@
+{"text":"Сколько стоит футболка синяя?","expected":{"intent":"PRICE","product_id":"TEST-BLUE","match_status":"exact","needs_clarification":false}}
+{"text":"Какие размеры рубашки зелёной?","expected":{"intent":"SIZES","product_id":"TEST-GREEN","match_status":"exact"}}
+{"text":"Есть ли футболка синяя XXL?","expected":{"intent":"AVAILABILITY","product_id":"TEST-BLUE","size":"XXL"}}
+{"text":"Хочу заказать платье Луна размер 42","expected":{"intent":"ORDER","product_id":"TEST-DRESS","size":"42"}}
+{"text":"Покажи каталог","expected":{"intent":"CATALOG","product_id":null,"match_status":"not_applicable","needs_clarification":false}}
+{"text":"Сколько стоит доставка футболки?","expected":{"intent":"UNKNOWN","product_id":null}}
+{"text":"Из какого материала футболка?","expected":{"intent":"UNKNOWN","product_id":null}}
+{"text":"Сколько стоит футболка?","expected":{"intent":"PRICE","product_id":null,"match_status":"ambiguous"}}
+{"text":"Хочу заказать футболку синюю и рубашку зелёную","expected":{"intent":"UNKNOWN","product_id":null}}
+{"text":"Сколько стоит футбалка синяя?","expected":{"intent":"PRICE","product_id":null,"match_status":"possible","needs_clarification":true}}
+{"text":"Футболка синяя нравится"}
+{"text":"Цена футболки синей, размеры XL","expected":{"intent":"UNKNOWN","product_id":null,"needs_clarification":true}}
